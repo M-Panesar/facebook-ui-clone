@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-Clone</title>
+    <link rel="stylesheet" href="facebook-main-page.css">
+</head>
+<body>
+    <section class="header">
+        <nav class="nav-bar">
+            <div class="logo-and-search-button-div">
+                <div class="logo">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </div>
+                <div class="search-button">
+                    <div class="search-button-icon">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                    <input type="text" class="input" placeholder="Search Facebook">
+                </div>
+            </div>
+            <div class="different-page-div">
+                <a href="#"><ion-icon name="home"></ion-icon></a>
+                <a href="Friend Request Page/friend-request.html"><ion-icon name="people-outline"></ion-icon></a>
+                <a href="Watch/watch.html"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="#"><ion-icon name="storefront-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="people-circle-outline"></ion-icon></a>
+                
+            </div>
+            <div class="profile-div">
+                <a href="#"><ion-icon name="apps-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-wechat"></ion-icon></a>
+                <a href="#"><ion-icon name="notifications-outline"></ion-icon></a>
+                <a href="#"><img src="images/profile-pic.jpg"></ion-icon></a>
+            </div>
+        </nav>
+    </section> <br>
+
+    <section class="center-main">
+        <div class="profile-info-div">
+            <div class="info-div-items">
+                <div class="image">
+                    <img src="images/profile-pic.jpg">
+                </div>
+                <div class="naming">
+                    <h4>XYZ-Name</h4>
+                </div>
+            </div>
+            <div class="info-div-items">
+                <div class="image">
+                    <ion-icon name="people-outline"></ion-icon>
+                </div>
+                <div class="naming">
+                    <h4>Find Friends</h4>
+                </div>
+            </div>
+            <div class="info-div-items">
+                <div class="image">
+                    <ion-icon name="timer-outline"></ion-icon>
+                </div>
+                <div class="naming">
+                    <h4>Most Recent</h4>
+                </div>
+            </div>
+            <div class="info-div-items">
+                <div class="image">
+                    <ion-icon name="people-circle-outline"></ion-icon>
+                </div>
+                <div class="naming">
+                    <h4>Groups</h4>
+                </div>
+            </div>
+            <div class="info-div-items">
+                <div class="image">
+                    <ion-icon name="storefront-outline"></ion-icon>
+                </div>
+                <div class="naming">
+                    <h4>Marketplace</h4>
+                </div>
+            </div>
+            <div class="info-div-items">
+                <div class="image">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </div>
+                <div class="naming">
+                    <h4>Watch</h4>
+                </div>
+            </div>
+            <div class="info-div-items">
+                <div class="image">
+                    <ion-icon id="special" name="chevron-down-circle-outline"></ion-icon>
+                </div>
+                <div class="naming">
+                    <h4>See more</h4>
+                </div>
+            </div>
+        </div>
+        <div class="post-area-div">
+            <div class="story-container-div">
+                <div class="story-reel-container">
+                    <div class="story-reel-top-div">
+                    <ion-icon name="book"></ion-icon>
+                    <a href="#">Stories</a>                    
+                    </div>
+                    <div class="story-reel-top-div">
+                    <ion-icon name="film"></ion-icon>
+                    <a href="#">Reels</a>                    
+                    </div>
+                </div>
+                <div class="stories-div">
+                    <div class="story">
+                        <div class="my-photo-part">
+                            <img src="images/profile-pic.jpg">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <h4>Create <br> Story</h4>
+                        </div>
+
+                    </div>
+                    <div class="story">
+                        <div class="photo-part">
+                            <img src="images/Friend-1.jpg">
+                            <h4>Friend-1</h4>
+                        </div>
+
+                    </div>
+
+                    <div class="story">
+                        <div class="photo-part">
+                            <img src="images/Friend-6.jpg">
+                            <h4>Friend-6</h4>
+                        </div>
+
+                    </div>
+
+                    <div class="story">
+                        <div class="photo-part">
+                            <img src="images/Friend-2.jpg">
+                            <h4>Friend-2</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="thoughts-div">
+                <div class="profile-pic-and-thought-div">
+                    <div class="profile-pic-div">
+                        <img src="images/profile-pic.jpg">
+                    </div>
+                    <div class="thought-input">
+                        <input type="text" placeholder="What's on your mind, Mahika?">
+                    </div>
+                </div>
+                <div class="icon-and-info-div">
+                    <div class="icon-info">
+                        <ion-icon class="video-icon" name="videocam"></ion-icon>
+                        <h3>Live video</h3>
+                    </div>
+                    <div class="icon-info">
+                        <ion-icon class="photos-icon" name="images"></ion-icon>
+                        <h3>Photo/video</h3>
+                    </div>
+                    <div class="icon-info">
+                        <ion-icon class="smiley-icon" name="happy-outline"></ion-icon>
+                        <h3>Feeling/activity</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="post-div">
+                <div class="name-div">
+                    <div class="left-name-div">
+                        <img src="images/Friend-2.jpg">
+                        <h3>Friend-2</h3>
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    </div>
+                    <div class="right-name-div">
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="picture-post">
+                    <!-- <img src="images/post-1.jpg"> -->
+                </div>
+                <div class="comment-div">
+                    <div class="like-icon-div">
+                        <ion-icon name="thumbs-up-outline"></ion-icon>
+                        <ion-icon name="heart-circle-outline"></ion-icon>
+                        <p>446K</p>
+                    </div>
+                    <div class="comment-number-div">
+                        <p>5</p><ion-icon name="chatbox-outline"></ion-icon>
+                        <p>103</p><ion-icon name="arrow-redo-outline"></ion-icon>
+                    </div>
+                </div>
+                <br>
+                <div class="like-comment-and-share-button-div">
+                    <div class="like-button-div">
+                        <ion-icon name="thumbs-up-outline"></ion-icon>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="comment-button-div">
+                        <ion-icon name="chatbox-outline"></ion-icon>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="share-button-div">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>
+                        <h4>Share</h4>
+                    </div>
+                </div>
+            </div>               
+        </div>
+
+        <div class="contacts-div">
+            <div class="contact-items-heading-icons-container">
+            <div class="contact-items-heading">
+                <h2>Contacts</h2>
+            </div>
+            <div class="contact-items-heading-icons">
+                <ion-icon name="videocam"></ion-icon>
+                <ion-icon name="search-outline"></ion-icon>
+                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="contact-items">
+                <div class="img">
+                    <img src="images/Friend-1.jpg">
+                </div>
+                <div class="name-of-a-friend">
+                    <h4>Friend-1 Name</h4>
+                </div>
+            </div>
+            <div class="contact-items">
+                <div class="img">
+                    <img src="images/Friend-2.jpg">
+                </div>
+                <div class="name-of-a-friend">
+                    <h4>Friend-2 Name</h4>
+                </div>
+            </div>
+            <div class="contact-items">
+                <div class="img">
+                    <img src="images/Friend-3.jpg">
+                </div>
+                <div class="name-of-a-friend">
+                    <h4>Friend-3 Name</h4>
+                </div>
+            </div>
+            <div class="contact-items">
+                <div class="img">
+                    <img src="images/Friend-4.jpg">
+                </div>
+                <div class="name-of-a-friend">
+                    <h4>Friend-4 Name</h4>
+                </div>
+            </div>
+            <div class="contact-items">
+                <div class="img">
+                    <img src="images/Friend-5.jpg">
+                </div>
+                <div class="name-of-a-friend">
+                    <h4>Friend-5 Name</h4>
+                </div>
+            </div>
+            <div class="contact-items">
+                <div class="img">
+                    <img src="images/Friend-6.jpg">
+                </div>
+                <div class="name-of-a-friend">
+                    <h4>Friend-6 Name</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group-Page</title>
+    <link rel="stylesheet" href="group.css">
+</head>
+<body>
+    <section class="header">
+        <nav class="nav-bar">
+            <div class="logo-and-search-button-div">
+                <div class="logo">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </div>
+                <div class="search-button">
+                    <div class="search-button-icon">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                    <input type="text" class="input" placeholder="Search Facebook">
+                </div>
+            </div>
+            <div class="different-page-div"> 
+                <a href="index.html"><ion-icon name="home"></ion-icon></a>
+                <a href="friend-request.html"><ion-icon name="people-outline"></ion-icon></a>
+                <a href="Watch/watch.html"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="#"><ion-icon name="storefront-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="people-circle-outline"></ion-icon></a>
+            </div>
+            <div class="profile-div">
+                <a href="#"><ion-icon name="apps-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-wechat"></ion-icon></a>
+                <a href="#"><ion-icon name="notifications-outline"></ion-icon></a>
+                <a href="#"><img src="images/profile-pic.jpg"></ion-icon></a>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div class="watch-section">
+            <div class="side-bar">
+                <div class="info-div-items-active">                    
+                    <div class="naming">
+                        <h1>Groups</h1>
+                    </div>
+                    <div class="image">
+                        <ion-icon id="icon" name="settings">
+                    </div>
+                </div>
+                <div class="info-div-items-active">
+                    <div class="search-button">
+                        <div class="search-button-icon">
+                            <ion-icon id="searching" name="search-outline"></ion-icon>
+                        </div>
+                        <input type="text" class="input_1" placeholder="Search groups">
+                    </div>
+                </div> <br>
+                <div class="info-div-items">
+                    <div class="image">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </div>
+                    <div class="naming">
+                        <h4>Your feed</h4>
+                    </div>
+                </div>
+                <div class="info-div-items">
+                    <div class="image">
+                        <ion-icon name="videocam"></ion-icon>
+                    </div>
+                    <div class="naming">
+                        <h4>Discover</h4>
+                    </div>
+                </div>
+                <div class="info-div-items">
+                    <div class="image">
+                        <ion-icon name="film"></ion-icon>
+                    </div>
+                    <div class="naming">
+                        <h4>Your groups</h4>
+                    </div>
+                </div>
+                <div class="info-div-items-active">
+                    <div class="create-button">
+                        <input type="text" class="input_2" placeholder="+  Create a new group">
+                    </div>
+                </div>              
+            </div>
+            <div class="videos-and-notification-div">
+            <div class="watch-section-main-div">
+                <h3>New Videos for you X</h3>
+                <div class="notification-div">
+                    <div class="notification-block">
+                        <img src="images/pic.jpg">
+                        <div class="notification-details">                            
+                            <p>New videos from abc and other.</p>
+                            <div class="timing-div">                                
+                                <h1>.</h1>
+                                <p class="in-blue">4 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="notification-block">
+                        <img src="images/pic.jpg">
+                        <div class="notification-details">                            
+                            <p>New videos from abc and other.</p>
+                            <div class="timing-div">                                
+                                <h1>.</h1>
+                                <p class="in-blue">4 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-section">
+                <div class="name-div">
+                    <div class="left-name-div">
+                        <img src="images/pic.jpg">
+                        <h3>Unknown</h3>
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    </div>
+                    <div class="right-name-div">
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="video-post">
+                    <video src="videos/video-1.mp4" controls></video>
+                </div>
+                <div class="comment-div">
+                    <div class="like-icon-div">
+                        <ion-icon name="thumbs-up-outline"></ion-icon>
+                        <ion-icon name="heart"></ion-icon>
+                        <p>446K</p>
+                    </div>
+                    <div class="comment-number-div">
+                        <p>5</p><ion-icon name="chatbox-outline"></ion-icon>
+                        <p>103</p><ion-icon name="arrow-redo-outline"></ion-icon>
+                    </div>
+                </div>
+                <br>
+                <div class="like-comment-and-share-button-div">
+                    <div class="like-button-div">
+                        <ion-icon name="thumbs-up-outline"></ion-icon>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="comment-button-div">
+                        <ion-icon name="chatbox-outline"></ion-icon>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="share-button-div">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>
+                        <h4>Share</h4>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div> 
+    </section>
+</body>
+</html>
